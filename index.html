@@ -19,41 +19,49 @@
             width: 800px;
             height: 100px;
             background-color: darkorange;
-            position: relative;
+            display: inline-block;
+            margin-left: 5px;
         }
         .main-black {
             background-color: #000;
             width: 820px;
             height: 620px;
-            position: relative;
         }
         .red {
+            margin-left: 5px;
             background-color: red;
-            display: inline-block;
+            float: left;
         }
         .green {
             background-color: green;
-            display: inline-block;
+            float: left;
         }
         .blue {
             background-color: dodgerblue;
-            display: inline-block;
+            float: left;
         }
         .black {
             background-color: black;
-            display: inline-block;
+            float: left;
+        }
+        .orange-top {
+            margin-top: 5px;
+
+        }
+        .orange-bot {
+            clear: both;
         }
     </style>
 </head>
 <body>
 
 <div class="main-black">
-    <div class="orange"></div>
+    <div class="orange orange-top"></div>
     <div class="red"></div>
     <div class="green"></div>
     <div class="blue"></div>
     <div class="black"></div>
-    <div class="orange"></div>
+    <div class="orange orange-bot"></div>
 </div>
 
 </body>
